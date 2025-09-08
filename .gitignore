@@ -1,0 +1,47 @@
+# Byte-code files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+src/*.egg-info/
+*.egg
+*.whl
+
+# Installer logs
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.hypothesis/
+.pytest_cache/
+
+# Type checking test results
+.mypy_cache/
+.dmypy.json
+dmypy/
+
+# Environments
+.env
+.venv
+env/
+virtualenv/
+venv/
+
+# Misc
+.DS_Store
+.python-version
+
+# Pytest
+.pytest_cache/
+.coverage.*
+
+# uv
+uv.lock
