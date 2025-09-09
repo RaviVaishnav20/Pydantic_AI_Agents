@@ -1,7 +1,7 @@
 from typing import Any 
 from pydantic import BaseModel, Field
 from pydantic_ai import Agent, ModelRetry, RunContext
-from load_model import OPENAI_MODEL
+from load_model import GEMINI_MODEL
 
 class Deps(BaseModel):
     """ Default Dependencies """
@@ -10,7 +10,7 @@ class Deps(BaseModel):
 
 weather_agent = Agent(
     name='Weather Agent',
-    model=OPENAI_MODEL,
+    model=GEMINI_MODEL,
     system_prompt=(
         'Be concise reply one sentence'
         'Use the `get_lat_lang` tool to get the latitude and longitude of the locations, '

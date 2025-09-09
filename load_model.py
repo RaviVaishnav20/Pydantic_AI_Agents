@@ -9,9 +9,9 @@ load_dotenv()
 # GEMINI_MODEL = 'gemini-2.5-flash'
 
 
-# GROQ_MODEL = GroqModel('llama-3.1-8b-instant')
+GROQ_MODEL = GroqModel('llama-3.1-8b-instant')
 OPENAI_MODEL = OpenAIChatModel("gpt-5-nano")
 # OLLAMA_MODEL(
-# GEMINI_MODEL = GeminiModel('gemini-2.5-flash')
+GEMINI_MODEL = GeminiModel('gemini-2.5-flash')
 
 
