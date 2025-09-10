@@ -6,7 +6,7 @@ from pydantic import BaseModel, Field
 from pydantic_ai import Agent
 from pydantic_ai.settings import ModelSettings
 from pydantic_ai.exceptions import UnexpectedModelBehavior
-from load_model import OPENAI_MODEL # GEMINI_MODEL
+from load_models import OPENAI_MODEL # GEMINI_MODEL
 import os 
 
 class Product(BaseModel):

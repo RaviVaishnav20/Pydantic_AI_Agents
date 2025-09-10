@@ -6,6 +6,9 @@ readme = "README.md"
 requires-python = ">=3.12.8"
 dependencies = [
     "bs4>=0.0.2",
+    "google-api-python-client>=2.181.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.2.2",
     "pandas>=2.3.2",
     "pydantic>=2.11.7",
     "pydantic-ai>=1.0.1",

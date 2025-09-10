@@ -45,3 +45,6 @@ venv/
 
 # uv
 uv.lock
+
+credentials.json
+token_files/

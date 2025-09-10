@@ -1,7 +1,7 @@
 from typing import Any 
 from pydantic import BaseModel, Field
 from pydantic_ai import Agent, ModelRetry, RunContext
-from load_model import GEMINI_MODEL
+from load_models import GEMINI_MODEL
 
 class Deps(BaseModel):
     """ Default Dependencies """
